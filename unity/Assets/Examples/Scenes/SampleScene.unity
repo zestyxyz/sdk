@@ -438,8 +438,58 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
         type: 3}
+      propertyPath: urlOverride
+      value: https://www.example.com
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: nameOverride
+      value: Beacon Unity Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedUrl
+      value: https://www.examplesiteunity4.com/
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
       propertyPath: beaconEnabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedName
+      value: DSIG Beacon Unity Test 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedImage
+      value: https://dummyimage.com/800x600/000/fff
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: descriptionOverride
+      value: This is a test of integrating the DSIG Beacon into a Unity WebGL project.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedDescription
+      value: This is a test of Unity integration with DSIG Beacon w/ tags and image!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedTags.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedTags.Array.data[0]
+      value: action
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
+        type: 3}
+      propertyPath: specifiedTags.Array.data[1]
+      value: puzzle
       objectReference: {fileID: 0}
     - target: {fileID: 4962564884104095091, guid: e82d35c8f4175134cac7dbbb1433e5e5,
         type: 3}
